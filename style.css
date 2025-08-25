@@ -1,0 +1,28 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.row button {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  font-size: 18px;
+}
+
+#result {
+  background-color: lightgray;
+  width: 220px;
+  height: 40px;
+  text-align: right;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
